@@ -80,7 +80,7 @@
  
 /* Move tabs over to right to make room for address bar */
  #TabsToolbar {
-    margin:         0 0 0 45vw !important;
+    margin:         0 0 0 43vw !important;
     height:         31px !important;
     padding-left:   -5px !important;
     background: #0c0c0d !important;
@@ -88,7 +88,7 @@
  
 /* Move address bar to titlebar with tabs */
  #nav-bar {
-    margin:         -30px 55vw -1px 69px !important;
+    margin:         -30px 57vw -1px 69px !important;
     height:         31px !important;
     border-bottom:  none !important;
     background: #0c0c0d !important;
@@ -157,6 +157,13 @@
     top:        1px;
     right:      4px;
 }
+
+#reload-button{
+    position:   fixed;
+    margin:    3px 0px 0px 0px !important;
+    padding-right: 34px !important;
+}
+
 
 #new-tab-button{
     position:   fixed;
@@ -312,3 +319,13 @@ menupopup menu:hover, menuitem:hover {
   display: none !important;
 }    
 
+/*  Overflow menu */
+
+.searchbar-textbox {
+background-color: #00b300 !important;
+color: #fff !important;   
+}
+
+#overflowMenu-customize-button:hover {
+    background-color: #0c0c0d !important;
+}
